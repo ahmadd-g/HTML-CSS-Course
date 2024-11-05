@@ -1,0 +1,120 @@
+.seven-a{
+  width: 200px;
+  border-radius: 16px;
+}
+
+.seven-b{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.seven-c{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  object-position: center;
+  object-fit: cover;
+}
+
+.seven-d{
+  margin-top: 32px;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+  border: solid;
+  border-width: 0.5px;
+  width: 150px;
+}
+
+.seven-e{
+  margin-top: 32px;
+  width: 450px;
+  border: none;
+  box-shadow: 0px 0.5px 3px rgba(0, 0, 0, 0.6);
+  padding-left: 13px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-radius: 50px;
+}
+
+.email{
+  margin-top: 32px;
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-family: Arial;
+  color: rgb(100, 100, 100);
+}
+
+.seven-f{
+  width: 400px;
+  border: solid;
+  border-width: 2px;
+  border-radius: 5px;margin-bottom: 6px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.terms{
+  font-family: Arial;
+  font-size: 16px;
+  color: rgb(100, 100, 100);
+  margin-bottom: 20px;
+}
+
+.agreement{
+  width: 405px;
+  background-color: rgb(10, 102, 194);
+  border-radius: 30px;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.agreement:hover{
+  opacity: 0.8;
+}
+.agreement:active{
+  opacity: 0.6;
+}
+
+.seven-g{
+  margin-top: 32px;
+  width: 75px;
+  height: 75px;
+  border-radius: 37.5px;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.tweet-bar{
+  vertical-align: middle;
+  border: none;
+  font-size: 19px;
+}
+
+.tweet-button{
+  vertical-align: middle;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: none;
+}
+
+.tweet-button:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+.tweet-button:active{
+  opacity: 0.6;
+}

@@ -1,0 +1,27 @@
+.div1{
+  display: flex;
+  width: 100px;
+  background-color: lightpink;
+  align-items: center;
+  justify-content: center;
+}
+
+.item1{
+  color: white;
+  background-color: black;
+}
+
+.div2{
+  width: 200px;
+  background-color: lightblue;
+}
+
+.row2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.row2-item{
+  background-color: black;
+  color: white;
+}

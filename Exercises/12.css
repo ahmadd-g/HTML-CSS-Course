@@ -1,0 +1,96 @@
+.header{
+	margin-top: 32px; 
+	background-color: rgb(120, 82, 178); 
+	display: flex; 
+	justify-content: space-between; 
+	flex-direction: row; 
+	align-items: center;
+}
+
+.home{
+	color: white;
+	font-weight: bold;
+	font-family: Arial;
+	margin: 16px 13px 16px;
+}
+
+.search-bar{
+	width: 350px;
+	border: none;
+	border-radius: 50px;
+	padding: 6px 16px 6px;
+}
+
+.download{
+	background-color: rgb(120, 82, 178);
+	border: solid;
+	border-width: 1px;
+	padding: 6px 8px 6px 8px;
+	border-color: white;
+	color: white;
+	margin-right: 8px;
+}
+
+.download:hover{
+	cursor: pointer;
+	background-color: white;
+	color: rgb(120, 82, 178);
+	transition: background-color 0.5s, color 0.5s;
+}
+.download:active{
+	opacity: 0.8;
+	transition: opacity 0.5s;
+}
+
+.profile{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	object-fit: cover;
+}
+
+.left-section{
+	width: 50px;
+}
+
+p{
+	font-family: Arial;
+}
+
+.name{
+	font-weight: bold;
+	margin-bottom: 4px
+}
+
+.middle-section{
+	width: 200px;
+	margin-left: 12px;
+}
+
+.status{
+	color: gray;
+	font-size: 14px;
+	margin-top: 0px;
+}
+
+.info{
+	margin-bottom: 4px;
+	margin-top: 0px;
+}
+
+.follow{
+	background-color: rgb(120, 82, 178);
+	color: white;
+	border: none;
+	border-radius: 4px;
+	padding: 7px 10px 7px 10px;
+	font-weight: bold;
+}
+
+.follow:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+.follow:active{
+	opacity: 0.6;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ex 12</title>
+
+    <link rel="stylesheet" href="12.css">
+</head>
+<body style="margin-bottom: 200px;">
+  <div style="display: flex;">
+    <div style="width: 200px; background-color: lightblue;">200px</div>
+    <div style="width: 75px; background-color: lightpink;">75px</div>
+  </div>
+
+  <div style="
+  margin-top: 32px;
+  display: flex;
+  ">
+    <div style="width: 50px; background-color: lightblue;">item1</div>
+    <div style="flex: 1; background-color: lightpink;">item2</div>
+    <div style="width: 75px; background-color: lightblue;">item3</div>
+  </div>
+
+  <div style="
+  display: flex;
+  margin-top: 32px;
+  justify-content: space-between;
+	align-items: center;
+  ">
+    <div style="background-color: lightpink;">item1</div>
+    <div style="background-color: lightpink;">item2</div>
+    <div style="background-color: lightpink;">item3</div>
+    <div style="background-color: lightpink;">item4</div>
+  </div>
+
+	<div style="
+	display: flex;
+	margin-top: 32px;
+	justify-content: space-between;
+	border: solid;
+	border-width: 1px;
+	height: 50px;
+	border-color: gray;
+	align-items: center;
+	flex-direction: row;
+	">
+		<div style="background-color: lightpink;">item1</div>
+		<div style="background-color: lightpink;">item2</div>
+	</div>
+
+  <div style="
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+  width: 200px;
+  margin-top: 32px;
+  border-radius: 6px;
+  padding: 8px 8px 8px 8px;
+  font-family: Arial;
+  ">
+    <div style="display: flex; justify-content: space-between; margin-bottom: 13px; flex-direction: row; align-items: center;">
+      <div style="display: inline-block;">Home</div>
+      <div style="background-color: rgb(49, 109, 245); color: white; border: none; border-radius: 13px; padding: 4px 11px 4px 11px; font-weight: bold; display: inline-block; font-size: 14px;">14</div>
+    </div>
+
+    <div style="display: flex; justify-content: space-between; flex-direction: row;align-items: center;">
+      <div style="display: inline-block;">Notifications</div>
+      <div style="background-color: rgb(49, 109, 245); color: white; border: none; border-radius: 13px; padding: 4px 11px 4px 11px; font-weight: bold; display: inline-block; font-size: 14px;">3</div>
+    </div>
+
+    <div style="display: flex; justify-content: space-between; margin-top: 13px; flex-direction: row; align-items: center;">
+      <div style="display: inline-block;">Messages</div>
+      <div style="background-color: rgb(49, 109, 245); color: white; border: none; border-radius: 13px; padding: 4px 11px 4px 11px; font-weight: bold; display: inline-block; font-size: 14px;">5</div>
+    </div>
+  </div>
+
+  <div class="header">
+    <div class="home">Home</div>
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="download" onclick="alert('Downloading...')">Download</button>
+  </div>
+
+  <div style="margin-top: 32px; display: flex; align-items: center;">
+      <img class="profile" src="../exercise images/cute-domestic-kitten-sits-window-staring-outside-generative-ai.jpg" alt="">
+    <div class="middle-section">
+    <p class="name">oliver</p>
+    <p class="info">the cat</p>
+    <p class="status">Popular</p>
+    </div>
+    <button class="follow" onclick="alert('Followed!')">Follow</button>
+  </div>
+
+  <div style="display: flex; align-items: center; height: 65px;">
+    <img class="profile" src="../exercise images/Orange-colored-cat-yawns-displaying-teeth.webp" alt="">
+    <div class="middle-section">
+      <p class="name">Rex</p>
+      <p class="info">The aggresive one</p>
+      <p class="status">Popular</p>
+    </div>
+    <button class="follow" onclick="alert('Followed!')">Follow</button>
+  </div>
+
+  <div style="display: flex; align-items: center;">
+    <img class="profile" src="../exercise images/ai-generated-stray-cat-in-danger-background-animal-background-photo.jpg" alt="">
+    <div class="middle-section">
+      <p class="name">Fufi</p>
+      <p class="info">Cool one</p>
+      <p class="status">Popular</p>
+    </div>
+    <button class="follow" onclick="alert('Followed!')">Follow</button>
+  </div>
+</body>
+</html>

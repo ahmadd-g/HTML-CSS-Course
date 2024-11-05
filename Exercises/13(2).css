@@ -1,0 +1,72 @@
+div{
+  font-family: Arial;
+}
+
+.email-message{
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+  width: 400px;
+  padding-bottom: 28px;
+  padding-left: 8px;
+  padding-top: 8px;
+  border-radius: 4px;
+  margin-left: 15px;
+}
+
+.email-content{
+  flex: 1;
+}
+
+.all-inboxes{
+  color: rgb(120, 120, 120);
+  font-size: 13px;
+  height: 15px;
+  margin-bottom: 15px;
+}
+
+.img-div{
+  margin-right: 10px;
+  width: 40px;
+}
+.img-sender{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.promotions-time{
+  display: flex;
+  justify-content: space-between;
+}
+
+.promos{
+  font-weight: bold;
+}
+.time{
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+}
+
+.sales{
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.more-info{
+  color: rgb(120, 120, 120);
+  margin-top: 5px;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  padding-right: 8px;
+  margin-top: 19px;
+}
+
+.email-message:hover{
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+  transition: box-shadow 0.5s;
+}
